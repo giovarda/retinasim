@@ -1,3 +1,9 @@
+salida/
+salida_test/
+capillary_bed.py.bak_test
+dotnet-install.sh
+*.csv
+*.am
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

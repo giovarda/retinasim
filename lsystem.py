@@ -1446,7 +1446,7 @@ def simulate_cco_seed(prefix='',params=None,max_cycles=10,path=None,plot=False,d
     embed_graphs = False   
     allow_midline_crossing = True 
 
-    np.random.seed()
+#     np.random.seed()
     
     # Vessel initialisation params
     angle_dev = 0.1
