@@ -52,9 +52,8 @@ def project_to_surface(graph=None,filename=None,vfile=None,efile=None,mesh_file_
         
     vt = graph.get_data('VesselType')
     
-    z0 = -105. # IPL
-    z1 = -165. # OPL
-    z0 = z1
+    z0 = -35. # IPL (corregido: relativo a malla de vasos, no a ILM)
+    z1 = -95. # OPL (corregido: relativo a malla de vasos, no a ILM)
     points = graph.get_data('EdgePointCoordinates').copy()
     nodes = graph.get_data('VertexCoordinates').copy()
     plexus = np.zeros(graph.nnode,dtype='int') - 1
